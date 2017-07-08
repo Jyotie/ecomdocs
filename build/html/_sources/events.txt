@@ -1,0 +1,43 @@
+Events
+=========================
+
+In eComtics terminology a event represents a action on the webapp along with some of the properties relevant to the action, which the administrator has chosen to monitor. One of the example event is “AddToCart”, which is the combination of the user click action on “add to cart” button and the properties related to it like the product name, product id, product price & product quantity.
+
+Many times the same event may occur because of user actions on different web pages. To accommodate that the same event can have multiple configurations. Each configuration for a evnet has to be identified with a label. Example of this scenario is “AddToCart” event can be triggered by clicking on “add to cart” button in Product View page or by clicking on “add to cart” button in Search View page. So the labels for the two different configurations have to be chosen unique say “from_product_view” & “from_search_view” respectively, where as the event name remains same as “AddToCart”.
+
+Events are classified into two types as mentioned below, which are explained in detail in the next sections.
+
+
+Types of Events
+----------------
+* :ref:`standard_events`
+* :ref:`custom_events`
+
+.. _standard_events:
+
+Standard Events
+~~~~~~~~~~~~~~~
+
+eComtics has few predefined event names representing the most common events in a eCommerce Webapp. Following are the predefined standard events.
+
+* Add To Cart
+* Add To Wishlist
+* Checkout
+* Product View
+* Ratings And Reviews
+* Search View
+* Transacton
+* View Cart
+* Log In
+* Sign up
+
+
+.. _custom_events:
+
+Custom Events
+~~~~~~~~~~~~~~~
+
+All events which can occur in a eCommerce Webapp, which are not part of the predefined standard events are called Custom Events. While creating a custom event please make sure not to use any of the predefined standard event names for the custom event name.
+
+.. include:: ./events_def.inc
+.. include:: ./events_create.inc

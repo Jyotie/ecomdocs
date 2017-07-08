@@ -1,0 +1,43 @@
+.. begin-edef
+Defining Events
+----------------
+
+This section describes various fields required to be filled by user for defining a event.
+
+* :ref:`event_name`
+* :ref:`event_label`
+* :ref:`event_action`
+* :ref:`event_filters`
+
+.. _event_name:
+
+Event Name
+~~~~~~~~~~~
+
+This field allows the user to provide a name to the event. name primarily represents the type of event.
+
+.. _event_label:
+
+Event Label
+~~~~~~~~~~~
+
+In some cases same type of event might be possible to be performed from different web pages or from different actions on the same webpage. example user can do a “Add To Cart” operation either from product view or from search view. Means there are two ways of initiating the same event type “Add To Cart”. So we may need multiple event definitions to capture the same event type. To distinguish such multiple event definitions with the same name (event type) event label is used.  In the above mentioned case we will have two events defined with the same name “Add To Cart”, but with different labels like “from_product_view” , “from_search_view” etc… Name & Label combination needs to be unique.
+
+.. _event_action:
+
+Event Action
+~~~~~~~~~~~~~~
+This field is used to specify the action, which triggers the event to be captured. There are three kinds of actions supported currently. Load, Click & Change. You have to select the appropriate option from dropdown menu.
+
+* Load: Currently this option is supported only for page load event and is not supported for any other HTML element load event.
+* Click: This option can be chosen for identifying the user click on any of the HTML elements in the webpage.
+* Change: This action is meant for input, textarea and select tag
+
+.. _event_filters:
+
+Event Filters
+~~~~~~~~~~~~~
+
+* our next objective would be to link filters to the aforementioned action (click/load/change) for accurate identification of the event occurence.we have four different type of filters to choose from.
+
+.. end-edef

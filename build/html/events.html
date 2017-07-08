@@ -1,0 +1,407 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Events &mdash; eComtics User Guide 0.0.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="eComtics User Guide 0.0.1 documentation" href="index.html"/>
+        <link rel="next" title="Installation" href="installation.html"/>
+        <link rel="prev" title="Catalogue Access" href="catalogue_access.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> eComtics User Guide
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">User Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="integration.html">Integration in easy steps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catalogue_access.html">Catalogue Access</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Events</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#types-of-events">Types of Events</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#standard-events">Standard Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#custom-events">Custom Events</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#anatomy-of-a-event">Anatomy of a Event</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#event-name">Event Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#event-label">Event Label</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#event-action">Event Action</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#event-filters">Event Filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#event-properties">Event Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-a-event">Creating a Event</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#click-on-standard-button">Click on Standard Button</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fill-in-the-details">Fill in the Details</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#select-filters">Select Filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#set-properties">Set Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#save">Save</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">eComtics User Guide</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Events</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/events.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="events">
+<h1>Events<a class="headerlink" href="#events" title="Permalink to this headline">¶</a></h1>
+<p>In eComtics terminology a event represents a action on the webapp along with some of the properties relevant to the action, which the administrator has chosen to monitor. One of the example event is “AddToCart”, which is the combination of the user click action on “add to cart” button and the properties related to it like the product name, product id, product price &amp; product quantity.</p>
+<p>Many times the same event may occur because of user actions on different web pages. To accommodate that the same event can have multiple configurations. Each configuration for a evnet has to be identified with a label. Example of this scenario is “AddToCart” event can be triggered by clicking on “add to cart” button in Product View page or by clicking on “add to cart” button in Search View page. So the labels for the two different configurations have to be chosen unique say “from_product_view” &amp; “from_search_view” respectively, where as the event name remains same as “AddToCart”.</p>
+<p>Events are classified into two types as mentioned below, which are explained in detail in the next sections.</p>
+<div class="section" id="types-of-events">
+<h2>Types of Events<a class="headerlink" href="#types-of-events" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="#standard-events"><span class="std std-ref">Standard Events</span></a></li>
+<li><a class="reference internal" href="#custom-events"><span class="std std-ref">Custom Events</span></a></li>
+</ul>
+<div class="section" id="standard-events">
+<span id="id1"></span><h3>Standard Events<a class="headerlink" href="#standard-events" title="Permalink to this headline">¶</a></h3>
+<p>eComtics has few predefined event names representing the most common events in a eCommerce Webapp. Following are the predefined standard events.</p>
+<ul class="simple">
+<li>Add To Cart</li>
+<li>Add To Wishlist</li>
+<li>Checkout</li>
+<li>Product View</li>
+<li>Ratings And Reviews</li>
+<li>Search View</li>
+<li>Transacton</li>
+<li>View Cart</li>
+<li>Log In</li>
+<li>Sign up</li>
+</ul>
+</div>
+<div class="section" id="custom-events">
+<span id="id2"></span><h3>Custom Events<a class="headerlink" href="#custom-events" title="Permalink to this headline">¶</a></h3>
+<p>All events which can occur in a eCommerce Webapp, which are not part of the predefined standard events are called Custom Events. While creating a custom event please make sure not to use any of the predefined standard event names for the custom event name.</p>
+</div>
+</div>
+<div class="section" id="anatomy-of-a-event">
+<h2>Anatomy of a Event<a class="headerlink" href="#anatomy-of-a-event" title="Permalink to this headline">¶</a></h2>
+<p>This section describes various fields required to be filled by user for defining a event.</p>
+<ul class="simple">
+<li><a class="reference internal" href="#event-name"><span class="std std-ref">Event Name</span></a></li>
+<li><a class="reference internal" href="#event-label"><span class="std std-ref">Event Label</span></a></li>
+<li><a class="reference internal" href="#event-action"><span class="std std-ref">Event Action</span></a></li>
+<li><a class="reference internal" href="#event-properties"><span class="std std-ref">Event Properties</span></a></li>
+</ul>
+<div class="section" id="event-name">
+<span id="id3"></span><h3>Event Name<a class="headerlink" href="#event-name" title="Permalink to this headline">¶</a></h3>
+<p>This field allows the user to provide a name to the event. name primarily represents the type of event.</p>
+</div>
+<div class="section" id="event-label">
+<span id="id4"></span><h3>Event Label<a class="headerlink" href="#event-label" title="Permalink to this headline">¶</a></h3>
+<p>In some cases same type of event might be possible to be performed from different web pages or from different actions on the same webpage. example user can do a “Add To Cart” operation either from product view or from search view. Means there are two ways of initiating the same event type “Add To Cart”. So we may need multiple event definitions to capture the same event type.</p>
+<p>To distinguish such multiple event definitions with the same name (event type) event label is used.  In the above mentioned case we will have two events defined with the same name “Add To Cart”, but with different labels like “from_product_view” , “from_search_view” etc… Name &amp; Label combination needs to be unique.</p>
+</div>
+<div class="section" id="event-action">
+<span id="id5"></span><h3>Event Action<a class="headerlink" href="#event-action" title="Permalink to this headline">¶</a></h3>
+<p>This field is used to specify the action, which triggers the event to be captured. There are three kinds of actions supported currently. Load, Click &amp; Change. You have to select the appropriate option from dropdown menu.</p>
+<ul class="simple">
+<li>Load: Currently this option is supported only for page load event and is not supported for any other HTML element load event.</li>
+<li>Click: This option can be chosen for identifying the user click on any of the HTML elements in the webpage.</li>
+<li>Change: This action is meant for input, textarea and select tag</li>
+</ul>
+</div>
+<div class="section" id="event-filters">
+<span id="id6"></span><h3>Event Filters<a class="headerlink" href="#event-filters" title="Permalink to this headline">¶</a></h3>
+<p>our next objective would be to link filters to the aforementioned action (click/load/change) for accurate identification of the event occurence.we have four different type of filters to choose from.</p>
+<p><strong>CSS Selector</strong></p>
+<p>CSS selector in event definition is used by web pages to help keep information in the proper display format. It can help define font, size, color, spacing, border and location of HTML information on a web page, and can also be used to create a continuous look throughout multiple pages of a websiteThe CSS selector is chosen in the format as given below</p>
+<div class="highlight-default"><div class="highlight"><pre><span class="n">tagName</span><span class="c">#element Id.class Name1.class Name2{{attribute=value}}</span>
+</pre></div>
+</div>
+<p><strong>Inner HTML</strong></p>
+<p>InnerHTML is between the opening and the closing html tags. For example,</p>
+<div class="highlight-default"><div class="highlight"><pre>&lt;div class=”className1 className2”&gt;
+    &lt;button class=”addtocart”&gt;Add-to-Cart&lt;/button&gt;
+&lt;/div&gt;
+</pre></div>
+</div>
+<p>Here the innerHTML for div element will be – Add-to-Cart text Under Div. InnerHTML for button element will be – Add-to-Cart (which can be put as an innerHTML in event Definition in AddtoCart.)</p>
+<p><strong>Page URL</strong></p>
+<p>Its the URL of the website which identifies the defined event. This would match any url of the website that has given URL as prefix.</p>
+<p><strong>Specific Info</strong></p>
+<p>Specific Info differentiates the page from other pages in the website:</p>
+<div class="highlight-default"><div class="highlight"><pre>&lt;meta property=”og:pro” content=”og:property”/&gt;
+</pre></div>
+</div>
+<p>page may sometime contain some specific CSS like:</p>
+<div class="highlight-default"><div class="highlight"><pre>&lt;div id=”elementId” class=”className1 className2” attribute=value&gt;&lt;/div&gt;
+</pre></div>
+</div>
+<p>under such circumstances  specific Info is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span class="n">tagName</span><span class="c">#elmentId.className1.className2{{attribute=value}}</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Tag name is mandatoy</p>
+</div>
+</div>
+<div class="section" id="event-properties">
+<span id="id7"></span><h3>Event Properties<a class="headerlink" href="#event-properties" title="Permalink to this headline">¶</a></h3>
+<p>Event Properties are the details to be captured related to the event (Ex: For ProductView event details of the product viewed like product title, product price are termed properties of the ProductView event). While configuring the event details required to identify the values for these properties.  For each event property to be captured, we need to provide the details required to identify the HTML element (like CSS Selector etc…), which contains the property value.There are three fields (Name, Type &amp; CSS Selector) to be filled for each property to be captured. Name is the given name for the property to be captured &amp; the other two parameters Type &amp; CSS Selector are used to identify the elements from which the property values are to be captured.</p>
+<p><strong>Property Name</strong></p>
+<p>Property name for a particular event must be unique, enter the name of the property you are going to capture, you can name it as you wish the name to be</p>
+<p><strong>Property Type</strong></p>
+<p>As explained before Type is used along with CSS Selector to identify the HTML elements containing the propety values to be captured. Propeties are classified into three types based on the way the CSS Selector provided can be used to identify the HTML elements.</p>
+<p><strong>Unique</strong></p>
+<p>If the CSS Selector provided for the property can identify the element in the webpage uniquely then the property type to be choosen is “Unique”.</p>
+<p><strong>Selected</strong></p>
+<p>If the CSS Selector provided can be used to identify the element in the selected (either by click on a element/change in a element value within the) HTML DIV/Container then the property type to be choosen is “Selected”.</p>
+<p><strong>Repeated</strong></p>
+<p>If the CSS Selector provided for the property can identify multiple elements in the webpage within a HTML DIV/Container and we also would like to capture all the element values making the property value to be a array of values then the property type to be chosen is “Repeated”. (Incase of ViewCart event there will be multiple product names to be captured, all the names of the products can be captured as a array of names within a single property say product_names_in_cart).</p>
+</div>
+</div>
+<div class="section" id="creating-a-event">
+<h2>Creating a Event<a class="headerlink" href="#creating-a-event" title="Permalink to this headline">¶</a></h2>
+<p>This section describes on how to create a standard event by taking the example of creating a “Add To Cart” event. Similarly you can create custom events of your choice as well.</p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/EventManagement.png" />
+</div></blockquote>
+<div class="section" id="click-on-standard-button">
+<h3>Click on Standard Button<a class="headerlink" href="#click-on-standard-button" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/addEvent.png"><img alt="Calculating depth" class="align-center" src="_images/addEvent.png" style="width: 321.0px; height: 146.0px;" /></a>
+</div></blockquote>
+</div>
+<div class="section" id="fill-in-the-details">
+<h3>Fill in the Details<a class="headerlink" href="#fill-in-the-details" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/FillDetails.png"><img alt="Calculating depth" class="align-center" src="_images/FillDetails.png" style="width: 558.4px; height: 215.2px;" /></a>
+</div></blockquote>
+</div>
+<div class="section" id="select-filters">
+<h3>Select Filters<a class="headerlink" href="#select-filters" title="Permalink to this headline">¶</a></h3>
+<p>Steps to obtain CSS selector from the webpage an example:</p>
+<p>Step1: login into <a class="reference external" href="http://etrial.xyz/">http://etrial.xyz/</a> and go to ADD TO CART page</p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/addToCart_1.png" />
+</div></blockquote>
+<p>Step 2: Right click and select inspect, click on elements option</p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/addToCart_2.png" />
+</div></blockquote>
+<p>Step 3 : Copy and paste the CSS selector by holding the cursor on the “ADD to Cart” button</p>
+<p><strong>selecting outer container</strong></p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/addToCart_4.png" />
+</div></blockquote>
+<p><strong>Selecting inner container</strong></p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/addToCart_3.png" />
+</div></blockquote>
+<p><strong>Set the filter</strong></p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/addToCart_5.png" />
+</div></blockquote>
+</div>
+<div class="section" id="set-properties">
+<h3>Set Properties<a class="headerlink" href="#set-properties" title="Permalink to this headline">¶</a></h3>
+<p>Click on the symbol [+] to choose the properties of the event you wish to be captured in this case we have selected price, product name and quantity, click save after filling in the details</p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/Properties.png" />
+</div></blockquote>
+<p><strong>Example: Set Price Properties</strong></p>
+<p>selecting outercontainer</p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/Price.png" />
+</div></blockquote>
+<p>selecting innercontainer</p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/Price_2.png" />
+</div></blockquote>
+<p><strong>Example: Set Quantity Properties</strong></p>
+<p>selecting outercontainer</p>
+<blockquote>
+<div><img alt="Calculating depth" class="align-center" src="_images/Quantity.png" />
+</div></blockquote>
+</div>
+<div class="section" id="save">
+<h3>Save<a class="headerlink" href="#save" title="Permalink to this headline">¶</a></h3>
+<p><strong>Click on Save button to save the event</strong></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="catalogue_access.html" class="btn btn-neutral" title="Catalogue Access" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, eComtics.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
