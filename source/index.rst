@@ -9,7 +9,7 @@ eComtics unlocks the potential of customer insights and enables eCommerce busine
    :maxdepth: 2
    :caption: User Documentation
 
-   overview
+   Overview
    integration
    catalogue_access
    events
