@@ -1,7 +1,7 @@
 Widgets
 =========================
 
-eComtics unlocks the potential of marketing and enables eCommerce companies to develop meaningful customer relationships that drive revenue. With eComtics, eCommerce companies can maximize customer lifetime value by enabling marketers to fully know their customers and respond to them in real time. eComtics powers the best commerce experiences. Enable the best customer experience and Increase your revenue. The best thing about the eComtics platform is you don't have to write a single line of code. Our machine learning and Widgets will power all the smartness - Sit back and enjoy.
+eComtics unlocks the potential of personalzied marketing, and enables eCommerce companies to develop meaningful customer relationships that drive revenue. With eComtics, eCommerce companies can maximize customer site interaction by utilizing the marketing data to fully understand their customers and respond in real time. Begin to enable the best experience for your customer and increase revenue. You don't have to write a single line of code. Our machine learning and smart widgets will power everything - Sit back and enjoy.
 
 
 * :ref:`what_are_widgets`
@@ -11,7 +11,7 @@ eComtics unlocks the potential of marketing and enables eCommerce companies to d
 
 What are Widgets
 ~~~~~~~~~~~~~~~~~~
-The quickest and easiest way to address the most pressing concern (providing your customers with seamless checkout processes) is through the use of e-commerce widgets. you will have to do a widget activation and pick the widgets based on priority, you will find the section under the column eComtics- widgets
+The quickest and easiest way to address providing your customers with seamless checkout processes is through the use of e-commerce widgets. You will have to activate the widgets and pick them based on priority. You will find them under the section under the column eComtics- widgets
 
     .. image:: images/Widgets.png
         :alt: Calculating depth
