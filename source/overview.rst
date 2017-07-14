@@ -1,7 +1,7 @@
 overview
 ===============
 
-eComtics is a SaaS product, which upon integration with a eCommerce webapp will transform it into a Smart eCommerce webapp at lightning speed with a fraction of cost & zero code.
+eComtics is a SaaS product, which upon integration with a eCommerce webapp will transform it into a Smart eCommerce webapp at instantly at a fraction of the cost & zero code.
 
 Major Features :
 
