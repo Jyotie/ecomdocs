@@ -1,7 +1,7 @@
 Catalogue Access
 =========================
 
-This section will explain you the steps required to provide the authorization access to the eCommerce webapp product catalogue. If your eCommerce webapp is built using any of the following eCommerce Platforms then please go through the steps described in the subsection relevant to the platform. Otherwise please contact us @ this link Contact Us  and one of our representatives will help you complete this step.
+This section will explain you the steps required to provide the authorization access to the eCommerce webapp product catalogue. If your eCommerce webapp is built using any of the following eCommerce Platforms then please go through the steps described in the subsection relevant to that platform. Otherwise please contact us @ this link Contact Us  and one of our representatives will happily help you complete this step.
 
 
 Platforms
