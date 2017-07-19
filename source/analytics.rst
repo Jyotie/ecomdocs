@@ -8,7 +8,7 @@ Analytics and Dashboards
 Dashboards
 ------------
 
-By default for each company eComtics would generate few template dashboards for their ecommerce site. These dashboards would cover few Metrics and Traffic sources based on events generated on customer’s website. A brief description about each of these provided in the following sections. These dashboards are very common to any of our customers and if users/customers finds these dashboards are not sufficient for their needs then they can create their own dashboards to fulfil their requirements, please refer to the section ‘Custom Dashboards’ for more details or you can contact any of our personnel at SpotDy Inc for help in creating these dashboards.
+By default for each company eComtics will generate template dashboards for their ecommerce site. These dashboards would cover few Metrics and Traffic sources based on events generated on customer’s website. A brief description about each of these provided in the following sections. These dashboards are very common to any of our customers and if users/customers finds these dashboards are not sufficient for their needs then they can create their own dashboards to fulfil their requirements, please refer to the section ‘Custom Dashboards’ for more details or you can contact any of our personnel at SpotDy Inc for help in creating these dashboards.
 
 Basic Analytics
 ~~~~~~~~~~~~~~~~~~
