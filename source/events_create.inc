@@ -1,7 +1,7 @@
-Creating a Event
+Creating an Event
 ---------------------
 
-This section describes on how to create a standard event by taking the example of creating a “Add To Cart” event. Similarly you can create custom events of your choice as well.
+This section describes on how to create a standard event by taking the example of creating an “Add To Cart” event. Similarly, you can create custom events of your choice as well.
 
 
     .. image:: images/EventManagement.png
@@ -44,7 +44,7 @@ Step 2: Right click and select inspect, click on elements option
         :align: center
 
 
-Step 3 : Copy and paste the CSS selector by holding the cursor on the “ADD to Cart” button
+Step 3: Copy and paste the CSS selector by holding the cursor on the “ADD to Cart” button
 
 **selecting outer container**
 
@@ -70,7 +70,7 @@ Step 3 : Copy and paste the CSS selector by holding the cursor on the “ADD to 
 Set Properties 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Click on the symbol [+] to choose the properties of the event you wish to be captured in this case we have selected price, product name and quantity, click save after filling in the details
+Click on the symbol [+] to choose the properties of the event you wish to be captured in this case we have selected price, product name, and quantity, click save after filling in the details
 
 
     .. image:: images/Properties.png
