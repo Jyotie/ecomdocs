@@ -1,11 +1,11 @@
 overview
 ===============
 
-eComtics is a SaaS product, when integrated with a eCommerce webapp it will transform it into a Smart eCommerce webapp instantly at a fraction of the cost & zero code.
+eComtics is a SaaS product, when integrated with an eCommerce web app it will transform it into a Smart eCommerce web app instantly at a fraction of the cost & zero code.
 
-Major Features :
+Key features:
 
-* Personalized Widgets (Recent View, Dynamic Promotions etc …)
-* Smart Recommendation Widgets (Category Based Recommendation, Trending, CrossSell, UpSell)
-* Dashboards (Basic Analytics, Funnel Analytics, Transaction Metrics, Traffic Sources etc …)
+* Personalized Widgets (Recent View, Dynamic Promotions, etc.)
+* Smart Recommendation Widgets (Category Based Recommendation, Trending, cross-sell, up-sell)
+* Dashboards (Basic Analytics, Funnel Analytics, Transaction Metrics, Traffic Sources, etc.)
 
