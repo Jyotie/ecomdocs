@@ -27,7 +27,7 @@ import os
 # needs_sphinx = '1.0'
 
 # Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+# extensions coming with Sphinx (called 'sphinx.ext.*') or your custom
 # ones.
 extensions = []
 
@@ -77,9 +77,9 @@ language = None
 #
 # today_fmt = '%B %d, %Y'
 
-# List of patterns, relative to source directory, that match files and
+# List of patterns, relative to the source directory, that match files and
 # directories to ignore when looking for source files.
-# This patterns also effect to html_static_path and html_extra_path
+# This patterns also affect to html_static_path and html_extra_path
 exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
@@ -133,7 +133,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
 
 # Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
+# further.  For a list of choices available for each theme, see the
 # documentation.
 #
 # html_theme_options = {}
@@ -162,8 +162,8 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # html_favicon = None
 
 # Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
+# relative to this directory. They are copied after the built-in static files,
+# so a file named "default.css" will overwrite the built-in "default.css".
 html_static_path = ['ystatic']
 
 # Add any extra paths that contain custom files (such as robots.txt or
