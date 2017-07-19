@@ -1,7 +1,7 @@
 Events
 =========================
 
-In eComtics terminology an event represents a action on the webapp along with some of the properties relevant to the action, which the administrator has chosen to monitor. One of the example event is “AddToCart”, which is the combination of the user click action on “add to cart” button and the properties related to it like the product name, product id, product price & product quantity.
+In eComtics terminology, an event represents an action on the web app along with some of the properties relevant to the action, which the administrator has chosen to monitor. One of the example events is “AddToCart”, which is the combination of the user click action on “add to cart” button and the properties related to it like the product name, product id, product price & product quantity.
 
 Many times the same event may occur because of user actions on different web pages. To accommodate this the same event can have multiple configurations. Each configuration for an event must be identified with a label. A good example of this scenario is the “AddToCart” event that can be triggered by clicking on the “add to cart” button in Product View or by clicking on the “add to cart” button in Search View page. The labels for the two different configurations must be unique and say “from_product_view” & “from_search_view” respectively, where as the event name remains same as “AddToCart”.
 
@@ -18,7 +18,7 @@ Types of Events
 Standard Events
 ~~~~~~~~~~~~~~~
 
-eComtics has few predefined event names that are the most common events in a eCommerce Webapp. The following are the predefined standard events.
+eComtics has few predefined event names that are the most common events in an eCommerce Web app. The following are the predefined standard events.
 
 * Add To Cart
 * Add To Wishlist
@@ -26,7 +26,7 @@ eComtics has few predefined event names that are the most common events in a eCo
 * Product View
 * Ratings And Reviews
 * Search View
-* Transacton
+* Transaction
 * View Cart
 * Log In
 * Sign up
