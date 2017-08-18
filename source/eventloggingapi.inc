@@ -14,9 +14,10 @@ The interface will allow message recursion to support messages within a message.
     :string orgid: **Required**. Your org id
 
 
-**Example**
+Example
+~~~~~~~~
 
-Request
+**Request**
 
    .. sourcecode:: js
 
@@ -82,7 +83,7 @@ Request
 		}
 	}
 
-Response
+**Response**
 
    .. sourcecode:: js
 
