@@ -33,6 +33,7 @@ Response
 ~~~~~~~~~~
 
    .. sourcecode:: js
+
         {
             "widgetname": "Inspired By Your Browsing History",
             "docs": [{
