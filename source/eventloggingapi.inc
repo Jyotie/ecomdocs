@@ -10,6 +10,7 @@ The interface will allow message recursion to support messages within a message.
 
 
 If the type of the value is json for a certain key, say key1, it would result in recursion as given below.
+
    .. sourcecode:: js
 
 	“key_1”: {  “value”: {“properties” : 
@@ -24,6 +25,7 @@ If the type of the value is json for a certain key, say key1, it would result in
 	    }
 
 For Array type, following is the format:
+
    .. sourcecode:: js
 
 	“key_1”: {  “value”: [], “type” :”array”, “element_type”: “Any Data types supported above other than Array type and json type”},
@@ -31,11 +33,13 @@ For Array type, following is the format:
 	“key_1”: {  “value”: [1, 2, 3], “type” :”array”, “element_type”: “int”}
 
 Location field is a string of latitude and longitude separated by comma. Example location for Mumbai:
+
    .. sourcecode:: js
 
 	 “key_1”: {  “value”: “21.18,77.33”, type”: “latlong”}
 
 Properties fields is mandatory. Keys, values pairs inside the properties fields are optional. Date field should be in ISO date format.
+
    .. sourcecode:: js
 
 	“key_1”: {  “value”: “2015-11-21T01:51:17Z”, type”: “ISO_date”}
