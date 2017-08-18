@@ -10,7 +10,7 @@ To be effective you need to enable eComtics cookies.
 API Definition
 ~~~~~~~~~~~~~~~~
 
-.. data:: GET https://api.ecomtics.com/bab/v1
+.. data:: GET https://api.ecomtics.com/vav/v1
 
 **Parameters**
 ~~~~~~~~~~~~~~~~~
