@@ -16,10 +16,7 @@ In the future we might change the format of this endpoint to make it more abstac
 An example URL: http://readthedocs.org/api/v2/docsearch/?project=docs&version=latest&q=subdomains
     
     
-Results:
-
-.. sourcecode:: js
-  
+Results::
 
         {
             "results": {
@@ -53,3 +50,4 @@ Results:
                 }
             }
         }
+
