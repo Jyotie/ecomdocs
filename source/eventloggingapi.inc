@@ -21,7 +21,8 @@ Example
 
    .. sourcecode:: js
 
-      apikey: XXXXX (YOUR API SECRET KEY)    
+      apikey: XXXXX (YOUR API SECRET KEY)
+      orgid: XXXXX (YOUR ORG ID)
       inputJson:
 	{
 	"properties": {
