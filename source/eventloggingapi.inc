@@ -1,5 +1,5 @@
 Data types
-**********
+-----------
 
 .. data:: number
 
