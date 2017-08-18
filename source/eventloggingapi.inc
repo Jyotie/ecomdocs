@@ -16,9 +16,7 @@ The interface will allow message recursion to support messages within a message.
 
 **Example**
 
-Request
-
-   .. sourcecode:: js
+Request::
       apikey: XXXXX 
       orgid: XXXXX
       inputJson:
@@ -83,9 +81,7 @@ Request
 		}
 	}
 
-Response
-
-   .. sourcecode:: js
+Response::
 
         {
             responseCode: "SUCCESS"
