@@ -35,6 +35,7 @@ Response
 ~~~~~~~~~~
 
    .. sourcecode:: js
+
       {
         "widgetname": "Hot Trending Items",
         "docs": [{
