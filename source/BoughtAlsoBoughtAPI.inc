@@ -37,6 +37,7 @@ Response
 ~~~~~~~~~~
 
    .. sourcecode:: js
+
         {
             "widgetname": "bought also bought",
             "docs": [{
