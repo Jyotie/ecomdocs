@@ -31,6 +31,7 @@ Response
 ~~~~~~~~~~
 
    .. sourcecode:: js
+
         {
             "widgetname": "Recent Views",
             "docs": [{
