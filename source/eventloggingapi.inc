@@ -5,7 +5,7 @@ Event Logging JSON interface is designed to send user events/actions.
 The message interface is designed generically to support future requirements and extensibility. 
 The interface will allow message recursion to support messages within a message. 
 
-.. data:: number
+.. data:: https://api.ecomtics.com/events/v1
 
 
     :string project: **Required**. The slug of a project. 
