@@ -31,6 +31,7 @@ Response
 ~~~~~~~~~~
 
    .. sourcecode:: js
+
       {
         "widgetname": "Users who viewed this also Viewed",
         "docs": [{
