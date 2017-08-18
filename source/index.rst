@@ -17,4 +17,5 @@ eComtics unlocks the potential of customer insights and enables eCommerce busine
    analytics
    installation
    api
+   eventapi
 
