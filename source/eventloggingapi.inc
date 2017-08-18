@@ -16,9 +16,10 @@ The interface will allow message recursion to support messages within a message.
 
 **Example**
 
-Request::
-      apikey: XXXXX 
-      orgid: XXXXX
+Request
+
+   .. sourcecode:: js
+
       inputJson:
 	{
 	"properties": {
@@ -81,8 +82,22 @@ Request::
 		}
 	}
 
-Response::
+Response
+
+   .. sourcecode:: js
 
         {
             responseCode: "SUCCESS"
         }
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
