@@ -44,6 +44,9 @@ Properties fields is mandatory. Keys, values pairs inside the properties fields 
 
 
 
+API Definition
+~~~~~~~~~~~~~~~~
+
 .. data:: POST https://api.ecomtics.com/events/v1
 
 **Parameters**
