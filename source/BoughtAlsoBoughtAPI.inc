@@ -3,9 +3,9 @@ Bought Also Bought  API
 
 Description
 ~~~~~~~~~~~~~
-Display mostly bought also bought on product page optimized based on product features and customer behaviour.
-Our Machine Learning Algorithms optimizes based on the product features abd customer features. 
-It requires enable eComtics cookie to set.
+Display mostly bought also bought on product page optimized based on product features and customer behaviour in realtime.
+Our Machine Learning Algorithms dynamically optimizes based on the product features abd customer features. 
+To be effective you need to enable eComtics cookies.
 
 API Definition
 ~~~~~~~~~~~~~~~~
