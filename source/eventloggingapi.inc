@@ -7,8 +7,6 @@ The interface will allow message recursion to support messages within a message.
 
 .. data:: POST https://api.ecomtics.com/events/v1
 
-**Parameters**
-
     :string apikey : **Required**. The search query
     :string orgid : **Required**. orgid
     :string inputJson: **Required**. The input fields value that need to captured. 
