@@ -7,6 +7,8 @@ The interface will allow message recursion to support messages within a message.
 
 .. data:: POST https://api.ecomtics.com/events/v1
 
+    **Parameters**
+
     :string project: **Required**. The slug of a project. 
     :string version: **Required**. The slug of the version for this project.
     :string q: **Required**. The search query
