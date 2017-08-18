@@ -27,61 +27,17 @@ HTTP response codes to indicate the success or failure of an API request.
 * codes in the 5xx range indicate an server error.
 * APIs which are valid but not complete will have error message indicating the error.
 
-Doc Search
-----------
+Data types
+**********
 
-.. http:get:: /api/v2/docsearch/
+.. data:: number
 
-    :string project: **Required**. The slug of a project. 
-    :string version: **Required**. The slug of the version for this project.
-    :string q: **Required**. The search query
+    Numbers include integers, real numbers and complex numbers. There is only one data type for all numbers.
 
-    You can search a specific set of documentation using our doc search endpoint.
-    It returns data in the format of Elastic Search,
-    which requires a bit of traversing to use.
+    ``i``, ``e``, ``infinity`` and ``pi`` are reserved keywords for the imaginary unit, the base of the natural logarithm, ∞ and π, respectively.
 
-    In the future we might change the format of this endpoint to make it more abstact.
-
-    An example URL: http://readthedocs.org/api/v2/docsearch/?project=docs&version=latest&q=subdomains
-
-
-    Results:
-
-   .. sourcecode:: js
-  
-
-        {
-            "results": {
-                "hits": {
-                    "hits": [
-                        {
-                            "fields": {
-                                "link": "http://localhost:9999/docs/test-docs/en/latest/history/classes/coworking",
-                                "path": [
-                                    "history/classes/coworking"
-                                ],
-                                "project": [
-                                    "test-docs"
-                                ],
-                                "title": [
-                                    "PIE coworking"
-                                ],
-                                "version": [
-                                    "latest"
-                                ]
-                            },
-                            "highlight": {
-                                "content": [
-                                    "\nhelp fund more endeavors. Beta <em>test</em>  This first iteration of PIE was a very underground project"
-                                ]
-                            }
-                        },
-                    ],
-                    "max_score": 0.47553805,
-                    "total": 2
-                }
-            }
-        }
+    **Examples**: ``0``, ``-1``, ``0.234``, ``i``, ``e``, ``pi``
+    
 .. include:: ./eventloggingapi.inc
 
 
