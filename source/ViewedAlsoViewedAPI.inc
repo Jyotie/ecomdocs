@@ -3,7 +3,7 @@ Viewed Also Viewed API
 
 Description
 ~~~~~~~~~~~~~
-Display mostly bought also bought on product page optimized based on product features and customer behaviour.
+Display Viewed Also Viewed on product page optimized based on product features and customer behaviour.
 Our Machine Learning Algorithms optimizes based on the product features abd customer features. 
 To be effective you need to enable eComtics cookies.
 
