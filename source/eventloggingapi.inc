@@ -1,6 +1,9 @@
 Event Logging API
 ------------------
 
+Description
+~~~~~~~~~~~~~
+
 Event Logging JSON interface is designed to send user events/actions. 
 The message interface is designed generically to support future requirements and extensibility. 
 The interface will allow message recursion to support messages within a message. 
@@ -50,10 +53,8 @@ Properties fields is mandatory. Keys, values pairs inside the properties fields 
     :string orgid: **Required**. Your org id
 
 
-Example
-~~~~~~~~
-
-**Request**
+Request
+~~~~~~~~~~~~~
 
    .. sourcecode:: js
 
@@ -121,7 +122,8 @@ Example
 		}
 	}
 
-**Response**
+Response
+~~~~~~~~~~
 
    .. sourcecode:: js
 
