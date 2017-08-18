@@ -16,40 +16,10 @@ The interface will allow message recursion to support messages within a message.
 
     
     
-    Results:
+**Results**:
 
    .. sourcecode:: js
-  
 
         {
-            "results": {
-                "hits": {
-                    "hits": [
-                        {
-                            "fields": {
-                                "link": "http://localhost:9999/docs/test-docs/en/latest/history/classes/coworking",
-                                "path": [
-                                    "history/classes/coworking"
-                                ],
-                                "project": [
-                                    "test-docs"
-                                ],
-                                "title": [
-                                    "PIE coworking"
-                                ],
-                                "version": [
-                                    "latest"
-                                ]
-                            },
-                            "highlight": {
-                                "content": [
-                                    "\nhelp fund more endeavors. Beta <em>test</em>  This first iteration of PIE was a very underground project"
-                                ]
-                            }
-                        },
-                    ],
-                    "max_score": 0.47553805,
-                    "total": 2
-                }
-            }
+        responseCode: "SUCCESS"
         }
