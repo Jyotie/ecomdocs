@@ -29,6 +29,7 @@ HTTP response codes to indicate the success or failure of an API request.
     
 .. include:: ./eventloggingapi.inc
 .. include:: ./ViewedAlsoViewedAPI.inc
-.. include:: ./prfuapi.inc
+.. include:: ./prfuAPI.inc
+.. include:: ./productconsiderationAPI.inc
 
 
