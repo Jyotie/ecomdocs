@@ -3,19 +3,21 @@ Product Consideration API
 
 Description
 ~~~~~~~~~~~~~
-Display mostly more to consider products on product page optimized based on product features.
-Our Machine Learning Algorithms optimizes based on the product features.
+Display Product Consideration on product page optimized based on product features and customer behaviour in realtime.
+Our Machine Learning Algorithms dynamically optimizes based on the product and customer  features. 
+To be effective you need to enable eComtics cookies.
 
 API Definition
 ~~~~~~~~~~~~~~~~
 
-.. data:: GET https://api.ecomtics.com/vav/v1
+.. data:: GET https://api.ecomtics.com/prc/v1
 
 **Parameters**
 ~~~~~~~~~~~~~~~~~
 
     :string apikey: **Required**. Your secret API key.
     :string orgid: **Required**. Your org id
+    :number sku: **Required**. Product ID or SKU
     :number limit: **Optional**. Your org id
 
 
