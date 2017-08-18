@@ -9,9 +9,9 @@ The interface will allow message recursion to support messages within a message.
 
 **Parameters**
 
-    :string project: **Required**. The slug of a project. 
-    :string version: **Required**. The slug of the version for this project.
-    :string q: **Required**. The search query
+    :inputJson: **Required**. The input key/values you want to capture. 
+    :string apikey: **Required**. Your secret API key.
+    :string orgid: **Required**. Your org id
 
 
     
