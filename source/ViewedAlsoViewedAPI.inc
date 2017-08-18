@@ -3,7 +3,8 @@ Viewed Also Viewed API
 
 Description
 ~~~~~~~~~~~~~
-Display mostly viewed products on product page optimized based on customer demo/gender/geo etc..
+Display mostly viewed products on product page optimized based on customer 
+our Machine Learning Algorithms and features such as demo/gender/geo etc..
 
 API Definition
 ~~~~~~~~~~~~~~~~
@@ -12,7 +13,6 @@ API Definition
 
 **Parameters**
 
-    :inputJson: **Required**. The input key/values you want to capture. 
     :string apikey: **Required**. Your secret API key.
     :string orgid: **Required**. Your org id
     :number limit: **Optional**. Your org id
@@ -25,7 +25,7 @@ Request
 
       apikey: XXXXX (YOUR API SECRET KEY)
       orgid: XXXXX (YOUR ORG ID)
-      limit: 1-10 (Number of Products)
+      limit: 1-10 (Number of Products to retrive)
 
 Response
 ~~~~~~~~~~
