@@ -1,5 +1,5 @@
-Event Logging
---------------
-Hi new changes 
+Anatomy of an Event
+---------------------
 
-.. http:get:: /api/v2/docsearch/
+This section describes various fields required to be filled by the user for defining an event.
+
