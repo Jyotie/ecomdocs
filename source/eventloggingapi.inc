@@ -1,6 +1,6 @@
 Event Logging
 --------------
-
+Hi new changes 
 .. http:get:: /api/v2/docsearch/
 
     :string project: **Required**. The slug of a project. 
