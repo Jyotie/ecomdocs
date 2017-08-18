@@ -33,5 +33,6 @@ HTTP response codes to indicate the success or failure of an API request.
 .. include:: ./ProductRecoAPI.inc
 .. include:: ./ProductConsiderationAPI.inc
 .. include:: ./ProductTrendingAPI.inc
+.. include:: ./InspiredByBrowsingAPI.inc
 .. include:: ./RecentViewAPI.inc
 
