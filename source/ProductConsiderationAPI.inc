@@ -35,6 +35,7 @@ Response
 ~~~~~~~~~~
 
    .. sourcecode:: js
+
         {
             "widgetname": "More Items to Consider",
             "docs": [{
