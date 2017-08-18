@@ -31,6 +31,6 @@ HTTP response codes to indicate the success or failure of an API request.
 .. include:: ./ViewedAlsoViewedAPI.inc
 .. include:: ./BoughtAlsoBoughtAPI.inc
 .. include:: ./ProductRecoAPI.inc
-.. include:: .ProductConsiderationAPI.inc
+.. include:: ./ProductConsiderationAPI.inc
 
 
