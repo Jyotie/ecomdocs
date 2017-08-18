@@ -28,5 +28,6 @@ HTTP response codes to indicate the success or failure of an API request.
 * APIs which are valid but not complete will have error message indicating the error.
     
 .. include:: ./eventloggingapi.inc
+.. include:: ./ViewedAlsoViewedAPI.inc
 
 
