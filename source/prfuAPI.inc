@@ -3,8 +3,8 @@ Product Recommendations API
 
 Description
 ~~~~~~~~~~~~~
-Display mostly products recomendation on product page optimized based on customer 
-our Machine Learning Algorithms and features such as demo/gender/geo etc..
+Display mostly viewed products on product page optimized based on customer behaviour in real time.
+Our Machine Learning Algorithms optimizes based on the features such as demo/gender/geo etc..
 
 API Definition
 ~~~~~~~~~~~~~~~~
