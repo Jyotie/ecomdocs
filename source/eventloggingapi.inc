@@ -21,6 +21,7 @@ Example
 
    .. sourcecode:: js
 
+      apikey: XXXXX (YOUR API SECRET KEY)    
       inputJson:
 	{
 	"properties": {
