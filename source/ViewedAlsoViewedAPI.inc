@@ -4,7 +4,7 @@ Viewed Also Viewed API
 Description
 ~~~~~~~~~~~~~
 Display Viewed Also Viewed on product page optimized based on product features and customer behaviour in realtime.
-Our Machine Learning Algorithms dynamically optimizes based on the product features abd customer features. 
+Our Machine Learning Algorithms dynamically optimizes based on the product features and customer features. 
 To be effective you need to enable eComtics cookies.
 
 API Definition
