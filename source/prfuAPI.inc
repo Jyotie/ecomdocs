@@ -3,19 +3,21 @@ Product Recommendations API
 
 Description
 ~~~~~~~~~~~~~
-Display mostly viewed products on product page optimized based on customer behaviour in real time.
-Our Machine Learning Algorithms optimizes based on the features such as demo/gender/geo etc..
+Display Product Recommendations on product page optimized based on product features and customer behaviour in realtime.
+Our Machine Learning Algorithms dynamically optimizes based on the product features and customer behavior. 
+To be effective you need to enable eComtics cookies.
 
 API Definition
 ~~~~~~~~~~~~~~~~
 
-.. data:: GET https://api.ecomtics.com/prfu/v1
+.. data:: GET https://api.ecomtics.com/bab/v1
 
 **Parameters**
 ~~~~~~~~~~~~~~~~~
 
     :string apikey: **Required**. Your secret API key.
     :string orgid: **Required**. Your org id
+    :number sku: **Required**. Product ID or SKU
     :number limit: **Optional**. Your org id
 
 
@@ -26,6 +28,7 @@ Request
 
       apikey: XXXXX (YOUR API SECRET KEY)
       orgid: XXXXX (YOUR ORG ID)
+      sku: XXXXX (Product ID)
       limit: 1-10 (Number of Products to retrive)
 
 Response
