@@ -32,5 +32,5 @@ HTTP response codes to indicate the success or failure of an API request.
 .. include:: ./BoughtAlsoBoughtAPI.inc
 .. include:: ./ProductRecoAPI.inc
 .. include:: ./ProductConsiderationAPI.inc
-
+.. include:: ./ProductTrendingAPI.inc
 
