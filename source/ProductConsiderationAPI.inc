@@ -28,6 +28,7 @@ Request
 
       apikey: XXXXX (YOUR API SECRET KEY)
       orgid: XXXXX (YOUR ORG ID)
+      sku:  Product ID or SKU
       limit: 1-10 (Number of Products to retrive)
 
 Response
