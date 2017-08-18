@@ -25,5 +25,9 @@ HTTP response codes to indicate the success or failure of an API request.
 * Codes in the 2xx range indicate success. 
 * Codes in the 4xx range indicate an error that failed given the information provided 
 * codes in the 5xx range indicate an server error.
-* APIs which are valid but not complete will have error message indicating the error. 
+* APIs which are valid but not complete will have error message indicating the error.
+
+
+.. include:: ./eventloggingapi.inc
+
 
